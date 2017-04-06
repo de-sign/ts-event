@@ -1,0 +1,18 @@
+.log__area{
+	display: inline-block;
+	width: 33%;
+	vertical-align: top;
+}
+
+.log__event{
+	padding: 10px;
+}
+
+.log__event:nth-child(even){
+	background-color: #f7f7f7;
+}
+
+.log__touch{
+	display:inline-block;
+	padding: 5px;
+}

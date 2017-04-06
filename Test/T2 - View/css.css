@@ -1,0 +1,19 @@
+body{
+	text-align: center;
+}
+
+.log__touch{
+	display: inline-block;
+	width: 19%;
+	vertical-align: top;
+	height: 150px;
+	background-color: #f7f7f7;
+}
+
+.log__touchstart{
+	background-color: limegreen;
+}
+
+.log__touchmove{
+	background-color: deepskyblue;
+}

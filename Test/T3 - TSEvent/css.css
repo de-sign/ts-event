@@ -1,0 +1,32 @@
+html,
+body{ 
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 14px;
+	font-family: Segoe UI;
+	color: #666;
+}
+
+.log__area{
+	background-color: #eee;
+	height: 100%;
+	white-space: nowrap;
+	text-align: center;
+}
+
+.log__area:before{
+	content: '';
+	display: inline-block;
+	height: 100%;
+	width: 0;
+	vertical-align: middle;
+}
+
+.log__txt{
+	white-space: normal;
+	vertical-align: middle;
+	display: inline-block;
+}

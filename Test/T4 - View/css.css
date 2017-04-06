@@ -1,0 +1,38 @@
+*{
+	box-sizing: border-box;
+}
+
+html,
+body{ 
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	font-family: Segoe UI;
+	color: #666;
+}
+
+.ts__area{
+	background-color: #eee;
+	height: 100%;
+	white-space: nowrap;
+	text-align: center;
+}
+
+.ts__circle,
+.ts__touch{
+	position: fixed;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	transform-origin: 50% 50%;
+}
+
+.ts__touch{
+	background-color: DeepSkyBlue;
+	z-index: 1000;
+}
+
+.ts__circle{
+	background-color: LimeGreen;
+	z-index: 500;
+}
