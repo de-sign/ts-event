@@ -58,8 +58,8 @@ Type of event.
 ## *Object* custom_event.manager
 __TSManager__ who trigger the event.
 
-## *Object* custom_event.fingers
-__TSFinger__ who trigger the event.
+## *Array* custom_event.fingers
+List of __TSFinger__ who trigger the event.
 
 ------
 
