@@ -1,0 +1,86 @@
+*{
+	box-sizing: border-box;
+}
+
+html,
+body{ 
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: Segoe UI;
+	color: #333;
+}
+
+.ts__area{
+	height: 100%;
+	display: flex;
+}
+
+.ts__text{
+	margin: auto;
+	text-align: center;
+	z-index: 500;
+	padding: 25px;
+}
+
+.ts__text h1{
+	font-size: 2rem;
+	margin: 0;
+}
+
+.ts__text p{
+	margin: 2rem 0;
+}
+
+.ts__text a{
+	display: inline-block;
+	padding: 10px 25px;
+	border: 1px solid #333;
+	border-radius: 40px;
+	background-color: transparent;
+	color: #333;
+	text-decoration: none;
+	transition: color 0.25s ease, background-color 0.25s ease;
+}
+
+.ts__text a:hover{
+	color: #fff;
+	background-color: #333;
+}
+
+.ts__text em{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 10px;
+	color: #666;
+}
+
+.ts__circle,
+.ts__touch{
+	position: fixed;
+	border: 1px solid #333;
+	transform-origin: 50% 50%;
+	border-radius: 50%;
+	z-index: 100;
+}
+
+.ts__circle{
+	z-index: 50;
+	overflow: hidden;
+}
+
+.ts__circle::after{
+	content: '';
+	display: block;
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, -50%) rotate(45deg) skew(25deg, 25deg);
+	background-color: #333;
+}
